@@ -1,0 +1,184 @@
+nav {
+    
+    margin: auto;
+    width: 960px;
+    height: 75px;
+    display: inline-block;
+    
+} 
+#logoImg{
+    /* margin-top: 2px; */
+    margin-top: 20px;
+    margin-right: 10px;
+    float: left;
+   
+} 
+ 
+nav h1{
+    margin-top: 20px;
+    font-family: 'Norican', cursive;
+    font-size: 2vw;
+    /* float: left; */
+}
+nav h2{
+    float: left;
+
+    color: #777;
+    font-size: 0.8vw;
+}
+nav ul{
+    
+    position: absolute;
+    top: 2vw;
+    right: 17vw;
+}
+nav li{
+ 
+    display: inline-block;
+  
+}
+
+hr{
+    border: none;
+    height: 10px;
+    background: repeating-linear-gradient(
+  45deg,
+  #fff,
+  #fff 1px,
+  #999 1px,
+  #999 2px
+);
+    
+}
+
+body{
+    margin: auto;
+    width: 960px;
+}
+
+main{
+    margin-top: 50px;
+}
+h3{
+    font-size: 2vw;
+    font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif, bold;
+}
+h4{
+    color: #777;
+    font-size: .8vw;
+    font-family: Arial, Helvetica, monospace;
+    margin: 10px 0px;
+}
+#choccoPizza{
+    width: 960px;
+}
+
+#printText{
+    color: #777;
+    font-size: .8vw;
+    font-family: Arial, Helvetica, monospace;
+    margin: 10px 0px;
+    display: inline-block;
+    width: 50px;
+}
+#printDiv{
+    text-align: right;
+    font-family: Arial, Helvetica, monospace;
+}
+
+section p {
+    color: #777;
+    margin-top: 30px;
+}
+
+
+
+/* /////////////////////////here//// */
+#list{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    background-image: url("img/list-bg.png");
+    box-shadow: 10px 10px 5px grey;
+    }
+    #recipe{
+        padding-top: 40px;
+        color: #777;
+    font-family: 'Gloria Hallelujah', cursive;
+    display:grid ;
+    grid-template-columns: auto auto;
+   
+    }
+    #item4{
+        text-decoration: line-through;
+    }
+    #item6{
+        text-decoration: line-through;
+    }
+     
+
+
+div li{
+    margin-left: 50px;
+}
+h5{
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+footer{
+    width: 960px;
+    
+    
+}
+h6{
+    margin-top: 10px;
+    color: #777;
+    width: 38vw;
+    
+
+}
+#profile{
+    /* display: inline-block; */
+    float: left;
+}
+button{
+    color: white;
+    font-size: 18px;
+    border: none;
+   position: relative;
+   left: 820px;
+   bottom: 50px;
+   background: orange;
+   height: 40px;
+    transition: 500ms;
+}
+button:hover{
+    background: green;
+    
+}
+
+#bottomLogo{
+    display: block;
+    margin: auto;
+}
+
+#lines{
+    position: relative;
+    bottom: 15px;
+    width: 450px;
+    border-top: black solid 1px;
+}
+
+#line2{
+    display: block;
+    position: relative;
+    bottom: 15px;
+    left: 510px;
+    
+    width: 450px;
+    border-top: black solid 1px;
+}

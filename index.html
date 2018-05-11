@@ -7,13 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Norican" rel="stylesheet">
     <title>Document</title>
 </head>
 <header>
-    <img src="img/small-logo.png">
-    <h1>Delicious </h1>
-    <h2>The best food blog on the web!</h2>
-    <div>
+    <nav>
+    
+        <img id="logoImg" src="img/logo.png">
+        <h1>Delicious </h1>
+        <h2>THE BEST FOOD BLOG ON THE WEB!</h2>
+    
         <ul>
             <li>
                 <img src="img/fb-icon.png">
@@ -40,57 +43,63 @@
                 <img src="img/mail-icon.png">
             </li>
         </ul>
-    </div>
-
+</nav>
 
 </header>
 
 <hr>
 
 <body>
+    <main>
     <h3>Chocolate Pizza</h3>
     <h4>POSTED ON 15 DEC 2013/DESSERTS</h4>
-    <img src="img/print-icon.png">
-    <img src="img/choco-pizza.png">
+    <div id="printDiv">
+    <p id="printText"> <img id="printImg" src="img/print-icon.png">PRINT</p>
+    </div>
+    <img id="choccoPizza" src="img/choco-pizza.png">
     <section>
-        <p>
+        <p class="recipe">
             For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to desolve. Halve all the figs and
             toss in trhe saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have
             a chunky-jammy mixture. Add salt with one or twi stirs, set asside and let cool completely
         </p>
-        <p>Ice Cream: In a small pot over medium heat, combine milk, and granulateds sugar until sugaer is completely desolved
+        <p class="recipe">Ice Cream: In a small pot over medium heat, combine milk, and granulateds sugar until sugaer is completely desolved
             and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig
             mixture is cooled.</p>
-        <p>Usinfg an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instrucxtions,
+        <p class="recipe"> Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instrucxtions,
             i.e., let spin and thicken for 20 minutes before adding marscapone, fig jam mixture, and the nuts. Contenue to
             process for +/- 10 minues. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least
             two hours before serving.
         </p>
     </section>
-    <div id="list-bg">
-   <ul>
-       <li>1 1/2 cups milk</li>
-       <li>1/2 cup marscapone</li>
-       <li>1/2 tsp pink salt</li>
-       <li>1lb Black Mission Figs</li>
-       <li>1/2 cup brown sugar</li>
-       <li>2-4 tbsp water</li>
-   </ul>
-   <ul>
-        <li>1 1/2 cups heavy cream</li>
-        <li>1/3 cups granulated sugar</li>
-        <li>2 egg yolks</li>
-        <li>1 lemon, juiced</li>
-        <li>2 tbsp butter</li>
-        <li>1 cup honey roasted pecans, roughly chopped</li>
-    </ul>
-    </div>
+    <div id="list">
+            <ul id="recipe">
+                
+                <li id="item1"><input type="checkbox" id="check1">1 1/2 cups milk</li>
+                <li id="item2"><input type="checkbox" id="check2">1 1/2 cups heavy cream</li>
+                <li id="item3"><input type="checkbox" id="check3">1/2 cup mascarpone</li>
+                <li id="item4"><input type="checkbox" checked="checked" id="check4">1/3 granulated sugar</li>
+                <li id="item5"><input type="checkbox" id="check5">1/2 tsp pink salt</li>
+                <li id="item6"><input type="checkbox" checked="checked"id="check6">2 egg yolks</li>
+                <li id="item7"><input type="checkbox" id="check7">1lb Black Mission Figs</li>
+                <li id="item8"><input type="checkbox" id="check8">1 lemon, juiced</li>
+                <li id="item9"><input type="checkbox" id="check9">1/2 cup brown sugar</li>
+                <li id="item10"><input type="checkbox" id="check10">2tbsp butter</li>
+                <li id="item11"><input type="checkbox" id="check11">2-4 tbsp water</li>
+                <li id="item12"><input type="checkbox" id="check12">1 cup honey roasted pecans,roughly chopped</li>
+         
+            </ul>
+        </div>
+</main>
+<hr>
 <footer>
-    <img src="img/van-pic.png">
+    <img id="profile" src="img/van-pic.png">
     <h5>Vanessa Stevenson</h5>
     <h6>Food enthusiast, photography fan. Add a pinch of raw foodism and thats pretty much who I am.</h6>
    <button>SHARE RECIPE</button>
-   <img src="img/small-logo.png">
+   <img id="bottomLogo" src="img/small-logo.png">
+   <div id="lines"></div>
+   <div id="line2"></div>
 </footer>
 
 
